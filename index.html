@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VectorPlus - мебель на заказ</title>
+    <meta
+      name="description"
+      content="VectorPlus проектирует и изготавливает корпусную мебель на заказ: кухни, шкафы, гардеробные, прихожие и мебель для бизнеса."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="VectorPlus">
+        <img src="assets/vectorplus-logo-enhanced.png?v=2" alt="VectorPlus" />
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#catalog">Каталог</a>
+        <a href="#process">Процесс</a>
+        <a href="#materials">Материалы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Мебельное производство под заказ</p>
+          <h1 id="hero-title">VectorPlus</h1>
+          <p class="lead">
+            Проектируем, замеряем и изготавливаем мебель, которая точно встает в ваше пространство:
+            кухни, шкафы, гардеробные, прихожие и рабочие зоны.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contacts">Рассчитать проект</a>
+          </div>
+        </div>
+        <div class="hero-stage" aria-hidden="true">
+          <div class="logo-plate"></div>
+          <div class="furniture-scene">
+            <span class="cabinet tall"></span>
+            <span class="cabinet wide"></span>
+            <span class="cabinet slim"></span>
+            <span class="counter"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Преимущества VectorPlus">
+        <div>
+          <strong>01</strong>
+          <span>замер и консультация перед запуском</span>
+        </div>
+        <div>
+          <strong>3D</strong>
+          <span>визуализация будущей мебели</span>
+        </div>
+        <div>
+          <strong>100%</strong>
+          <span>индивидуальные размеры и комплектация</span>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div>
+          <p class="eyebrow">Что делаем</p>
+          <h2>Корпусная мебель с чистой геометрией и продуманным хранением.</h2>
+        </div>
+        <p>
+          Стиль сайта построен вокруг логотипа VectorPlus: диагональная динамика, глубокий синий,
+          яркий голубой акцент и ощущение точного движения вперед. Внутри - спокойная мебельная
+          палитра с оттенками дерева и графита, чтобы проект выглядел не как реклама, а как
+          уверенная мастерская.
+        </p>
+      </section>
+
+      <section class="section catalog" id="catalog" aria-labelledby="catalog-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Каталог решений</p>
+            <h2 id="catalog-title">Выберите направление</h2>
+          </div>
+          <div class="filters" role="list" aria-label="Фильтр мебели">
+            <button class="filter active" data-filter="all" type="button">Все</button>
+            <button class="filter" data-filter="home" type="button">Дом</button>
+            <button class="filter" data-filter="business" type="button">Бизнес</button>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product" data-kind="home">
+            <div class="product-visual kitchen"></div>
+            <h3>Кухни под размер</h3>
+            <p>Фасады, столешницы, фурнитура, подсветка и хранение для ежедневного удобства.</p>
+          </article>
+          <article class="product" data-kind="home">
+            <div class="product-visual wardrobe"></div>
+            <h3>Шкафы и гардеробные</h3>
+            <p>Встроенные системы до потолка, купе, распашные фасады и аккуратные внутренние модули.</p>
+          </article>
+          <article class="product" data-kind="home">
+            <div class="product-visual hallway"></div>
+            <h3>Прихожие и тумбы</h3>
+            <p>Компактные решения для входной зоны, обуви, верхней одежды и бытовых мелочей.</p>
+          </article>
+          <article class="product" data-kind="business">
+            <div class="product-visual office"></div>
+            <h3>Мебель для бизнеса</h3>
+            <p>Ресепшены, рабочие столы, витрины и хранение для салонов, офисов и торговых точек.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process" id="process" aria-labelledby="process-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Как работаем</p>
+            <h2 id="process-title">От идеи до монтажа</h2>
+          </div>
+          <a class="text-link" href="#contacts">Начать проект</a>
+        </div>
+        <ol class="steps">
+          <li>
+            <span>01</span>
+            <h3>Заявка</h3>
+            <p>Обсуждаем задачу, помещение, стиль, примерный бюджет и сроки.</p>
+          </li>
+          <li>
+            <span>02</span>
+            <h3>Замер</h3>
+            <p>Снимаем размеры, проверяем углы, коммуникации и важные ограничения.</p>
+          </li>
+          <li>
+            <span>03</span>
+            <h3>Проект</h3>
+            <p>Подбираем материалы, фурнитуру и показываем понятную визуализацию.</p>
+          </li>
+          <li>
+            <span>04</span>
+            <h3>Изготовление</h3>
+            <p>Производим детали, собираем, доставляем и аккуратно устанавливаем мебель.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="materials" id="materials" aria-labelledby="materials-title">
+        <div class="material-copy">
+          <p class="eyebrow">Материалы</p>
+          <h2 id="materials-title">Синий VectorPlus с теплой мебельной основой.</h2>
+          <p>
+            Для фасадов можно сочетать матовые плиты, древесные текстуры, каменные столешницы,
+            стекло и металлические детали. Сайт показывает эту комбинацию через синий фирменный
+            акцент, графит и натуральные древесные тона.
+          </p>
+        </div>
+        <div class="swatches" aria-label="Примеры материалов">
+          <button class="swatch blue active" data-name="Фирменный синий" type="button"></button>
+          <button class="swatch wood" data-name="Орех натуральный" type="button"></button>
+          <button class="swatch graphite" data-name="Графит матовый" type="button"></button>
+          <button class="swatch stone" data-name="Светлый камень" type="button"></button>
+          <span class="swatch-name">Фирменный синий</span>
+        </div>
+      </section>
+
+      <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow">Контакты</p>
+            <h2 id="contacts-title">Расскажите, какую мебель нужно сделать.</h2>
+            <p>
+              Напишите в Instagram или оставьте данные в форме. Это демо-форма для сайта:
+              ее можно подключить к WhatsApp, Telegram, почте или CRM.
+            </p>
+            <a class="instagram-link" href="https://www.instagram.com/btb_mebel.kz/" target="_blank" rel="noreferrer">
+              @btb_mebel.kz
+            </a>
+            <a
+              class="whatsapp-link"
+              href="https://wa.me/77771000276?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20VectorPlus!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7."
+              target="_blank"
+              rel="noreferrer"
+            >
+              WhatsApp: +7 777 100 02 76
+            </a>
+          </div>
+          <form class="quote-form">
+            <label>
+              Имя
+              <input type="text" name="name" placeholder="Ваше имя" />
+            </label>
+            <label>
+              Что нужно изготовить
+              <select name="project">
+                <option>Кухня</option>
+                <option>Шкаф / гардеробная</option>
+                <option>Прихожая</option>
+                <option>Мебель для бизнеса</option>
+              </select>
+            </label>
+            <label>
+              Телефон
+              <input type="tel" name="phone" placeholder="+7" />
+            </label>
+            <button class="button primary" type="submit">Отправить заявку</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>VectorPlus</span>
+      <a href="#top">Наверх</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
